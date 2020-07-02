@@ -26,9 +26,3 @@ std = []
 
 [dependencies]
 serde = { version = "1.0.60", optional = true, default-features = false, features = ["alloc"] }
-
-[dev-dependencies]
-serde_test = "1.0"
-
-[target.'cfg(loom)'.dependencies]
-loom = "0.3"
